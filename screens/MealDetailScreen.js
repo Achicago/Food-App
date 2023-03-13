@@ -31,7 +31,6 @@ function MealDetailsScreen({ route, navigation }) {
             // favoriteMealsCtx.removeFavorite(mealId);
         } else {
             dispatch(addFavorite({ id: mealId }))
-
             // favoriteMealsCtx.addFavorite(mealId);
         }
     }
